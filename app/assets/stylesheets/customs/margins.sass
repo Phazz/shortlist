@@ -1,0 +1,40 @@
+@for $i from 1 through 5
+  .bottom_#{$i}
+    margin-bottom: #{$i}px
+
+  .left_#{$i}
+    margin-left: #{$i}px
+
+  .top_#{$i}
+    margin-top: #{$i}px
+
+  .right_#{$i}
+    margin-right: #{$i}px
+
+@for $i from 0 through 20
+  $px: $i * 5
+  .bottom_#{$px}
+    margin-bottom: #{$px}px
+
+  .left_#{$px}
+    margin-left: #{$px}px
+
+  .top_#{$px}
+    margin-top: #{$px}px
+
+  .right_#{$px}
+    margin-right: #{$px}px
+
+@for $i from 5 through 10
+  $px: $i * 2
+  .line_#{$px}
+    line-height: #{$px}px !important
+
+  .size_#{$px}
+    font-size: #{$px}px !important
+
+.margin_0
+  margin: 0 !important
+
+.padding_0
+  padding: 0 !important

@@ -12,7 +12,13 @@ gem 'sdoc',                     '~> 0.4.0', group: :doc
 
 gem 'spring',                   '~> 1.1.3', group: :development
 
-###-- Tools --###
+###--- Authentication ---###
+gem 'devise',                   '~> 3.2.4'
+
+###--- Logic ---#
+gem 'state_machine',            '~> 1.2.0'
+
+###--- Tools ---###
 gem 'haml',                     '~> 4.0.5'
 gem 'bootstrap-sass',           '~> 3.1.1'
 gem 'compass-rails',            '~> 1.1.7'

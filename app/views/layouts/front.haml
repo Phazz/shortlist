@@ -1,0 +1,17 @@
+!!!
+%html
+  %head
+    %title ShortList
+    = stylesheet_link_tag    asset_path('front.css'), media: 'all'
+    = javascript_include_tag asset_path('front.js')
+    = csrf_meta_tags
+
+    = yield :js
+
+%body
+  #wrapper
+    =# bs_flash
+    = render 'shared/navbar'
+    = yield
+
+  #footer= render 'shared/footer'
