@@ -2,6 +2,27 @@
   .container
     %h1 ShortList
     %p This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.
-    = link_to '#', class: 'btn btn-primary' do
+    = link_to '#', class: 'btn btn-success' do
       Learn more
       = fa_icon 'chevron-right'
+
+.container
+  %h2.bottom_30 Quick auth with:
+
+  .row
+    .col-xs-3
+      = link_to '#', class: 'btn btn-primary btn-block btn-lg' do
+        = fa_icon 'github'
+        GitHub
+    .col-xs-3
+      = link_to '#', class: 'btn btn-primary btn-block btn-lg' do
+        = fa_icon 'google-plus-square'
+        Google+
+    .col-xs-3
+      = link_to '#', class: 'btn btn-primary btn-block btn-lg' do
+        = fa_icon 'facebook-square'
+        Facebook
+    .col-xs-3
+      = link_to '#', class: 'btn btn-primary btn-block btn-lg' do
+        = fa_icon 'vk'
+        VK.com
