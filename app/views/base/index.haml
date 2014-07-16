@@ -6,7 +6,7 @@
       Learn more
       = fa_icon 'chevron-right'
 
-.container
+.container.bottom_50
   %h2.bottom_30 Quick auth with:
 
   .row
@@ -26,3 +26,25 @@
       = link_to '#', class: 'btn btn-primary btn-block btn-lg' do
         = fa_icon 'vk'
         VK.com
+
+
+.container
+  %h1 How it works
+  .panel.panel-default
+    .panel-body
+      .row.top_20
+        .col-xs-4.text-center
+          %p= fa_icon 'cubes 4x'
+          %p.lead
+            Install <a href="#">browser extension</a>
+            %br/
+            and setup project
+        .col-xs-4.text-center
+          %p= fa_icon 'desktop 4x'
+          %p.lead
+            Surf the Internet and
+            %br/
+            make quick bookmarks
+        .col-xs-4.text-center
+          %p= fa_icon 'list-alt 4x'
+          %p.lead Decide what you want easy
