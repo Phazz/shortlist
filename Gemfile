@@ -32,6 +32,18 @@ gem 'dalli',                    '~> 2.7.2'
 gem 'exception_notification',   '~> 4.0.1'
 
 
+# Deploy
+group :development do
+  gem 'capistrano',             '~> 2.14.1'
+  gem 'capistrano-ext',         '~> 1.2.1'
+  gem 'rvm-capistrano',         '~> 1.2.7'
+  # gem 'capistrano',             '~> 3.1.0'
+  # gem 'capistrano-rails',       '~> 1.1.1'
+  # gem 'capistrano-bundler',     '~> 1.1.2'
+  # gem 'capistrano-rvm',         '~> 0.1.1'
+end
+
+
 group :development do
   gem 'thin',                   '~> 1.6.2'
   gem 'spring-commands-rspec',  '~> 1.0.2'
