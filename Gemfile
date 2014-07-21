@@ -48,3 +48,8 @@ group :development do
   gem 'thin',                   '~> 1.6.2'
   gem 'spring-commands-rspec',  '~> 1.0.2'
 end
+
+
+group :production do
+  gem 'unicorn',                '~> 4.4.0'
+end
