@@ -1,7 +1,16 @@
 //= require jquery
-//= require jquery_ujs
-//= require jquery.bootstrap-growl.min
-//= require alerts
+//= require jquery-ui
+
+
+
+//= require angular
+//= require angular-resource
+//= require angular-route
+//= require angular-sanitize
+//= require angular-animate
+//= require angular-touch
+//= require angular-ui-bootstrap
+//= require angular-ui-bootstrap-tpls
 
 
 
