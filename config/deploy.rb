@@ -39,6 +39,7 @@ namespace :deploy do
 
   task :relink_configs, :roles => :app do
     run "ln -sf #{shared_path}/config/database.yml #{release_path}/config/database.yml"
+    run "ln -sf #{shared_path}/config/local_env.yml #{release_path}/config/local_env.yml"
 
     # assets precompile
     run "ln -s #{shared_path}/assets #{release_path}/public/assets"
