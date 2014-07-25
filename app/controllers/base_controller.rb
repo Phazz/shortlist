@@ -1,8 +1,11 @@
 class BaseController < ApplicationController
 
-  layout 'landing'
-
   def index
+    render text: '', layout: 'front'
+  end
+
+  def ng_renderer
+    render file: "angular/#{params[:path]}", layout: false
   end
 
 end

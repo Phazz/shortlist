@@ -1,0 +1,13 @@
+App.config(['$routeProvider', function($routeProvider) {
+  'use strict';
+
+  /* ========== Purchase orders ========== */
+  $routeProvider.when('/', {
+    templateUrl: '/angular/main/index',
+    controller: 'indexCtrl',
+    title: 'ShortList'
+  });
+
+  $routeProvider.otherwise({redirectTo: '/'});
+
+}]);
